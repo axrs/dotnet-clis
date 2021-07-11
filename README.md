@@ -11,7 +11,6 @@ A Collection of DotNet CLI tools
     - <JIRA_API_KEY> : JIRA API Key
 
 ~~~bash
-echo " $test_case in $file"
 dotnet run \
     --project ./TimeTrackingHelper -- \
     kanban-summary \
